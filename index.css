@@ -1,0 +1,133 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+.menu{
+    overflow-y: auto;
+ 
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 10% 90%;
+}
+
+.content{
+    background-color: grey;
+    padding: 0.1rem;
+}
+
+.content:hover,.content:first-child{
+    background-color: black;
+}
+
+.content div{
+  
+    text-align: center;
+}
+
+.sticky{height:100%;
+    width:10%;
+    background-color:#fff;
+    position:fixed!important;
+    z-index:1;
+    width: 126.5px;
+    overflow:auto}
+
+    @media screen and (max-width:1122px){
+       .sticky{ display : none;}
+        .container{
+            margin-top: 3.5rem;
+        }
+    }
+    @media screen and (max-width:992px){
+         .container{
+             margin-top: 6rem;
+         }
+     }
+    @media screen and (min-width:1121px){
+        .navbar{ display : none;
+        }
+     }
+     .navbar{
+        padding: 1.5rem;
+     }
+     @media screen and (min-width:992px) {
+        .position{
+            position: absolute;
+            right: 5rem;
+          }
+        
+          .position ul li a{
+            padding-right:5rem !important;
+          }  
+      }
+      .position ul li a{
+          font-size: 1.5rem;
+      }
+/*  2nd grid  */
+
+
+.skills span{
+    margin-top: 9rem;
+}
+.about{
+    margin-top: 2rem 0;
+    background-color: grey;
+    margin:2rem 0 0 0rem;;
+}
+.about div{
+    padding: 5%;
+    text-align: center;
+}
+
+.price-data{
+    background-color: grey;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+.head{
+    padding:4%;
+    background-color: grey !important;
+    text-align:center;
+    border: 1px solid black;
+}
+
+.price-content{
+    padding: 2%;
+    border: 1px solid black;
+    text-align:center;
+}
+
+.price-data:hover{
+    background-color: white;
+    color: black;
+}
+
+.grid-data{
+    display: grid;
+    grid-template-columns: 50% 50%;;
+}
+
+.image1{
+    padding-right: 1rem;
+    width: 100%;
+    padding-top: 1rem;
+}
+
+.image2{
+    padding-left: 1rem;
+    width: 100%;
+    padding-top: 1rem;
+}
+
+@media screen and (max-width:1092px){
+    .grid{
+        grid-template-columns: 100%;
+    }
+}
+
+@media screen and (max-width:991px){
+    .price-data{ margin-top:2rem;}
+ }
